@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <h1>Job Application Form</h1> <hr>
+   <b> <p>Thank you for your interest in working with us. Please check below for available job opportunities that meet your criteria and send your application by filling out the Job Application Form.</p></b>
+   <form action="./java.main">
+    <div>
+     <label for="name">Name:</label> 
+     <input type="text" id="name" placeholder="First" required>
+     <input type="text" id="name" placeholder="Last" required>
+    </div> <br>
+    <div>
+        <label for="em">Email:</label>
+        <input type="email" id="em" placeholder="abc.def@example.com" required>
+    </div> <br>
+    <div>
+        <p>What position are you applying for?</p>
+        <select id="option" required> 
+            <option value=""disabled selected>--Select--</option>
+            <option value="position">Operations Manager</option>
+            <option value="position">Executive Assistant</option>
+            <option value="position">Facilities Manager</option>
+            <option value="position">Administrative Technician</option>
+            <option value="position">Business Administrator</option>
+        </select>
+    </div> <br>
+    <div>
+        <label for="date">Available Date:</label>
+        <input type="date" id="date" required>
+    </div> <br>
+    <div>
+        <p>What is your current employee status?</p>
+        <input type="radio" name="current status?" id="employed" required>
+        <label for="employed">Employed</label>
+        <input type="radio" name="current status?" id="unemployed">
+        <label for="unemployed">Unemployed</label>
+        <input type="radio" name="current status?" id="self-employed">
+        <label for="self-employed">Self-Employed</label>
+        <input type="radio" name="current status?" id="student">
+        <label for="student">Student</label>
+    </div> <br>
+    <div>
+        <label for="resume">Please provide your resume link :</label>
+        <input type="url" name="resume" id="resume" placeholder="https://www.example.com" required>
+    </div> <br>
+    <div>
+    <label for="blank">Do you have references? (optional)</label>
+    <input type="text" name="blank" id="blank">
+    </div> <br>
+    <button type="reset">Reset</button> 
+    <button type="submit">Apply</button>
+   </form>
+</body>
+</html>
