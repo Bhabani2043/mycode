@@ -1,0 +1,24 @@
+body{
+    background-image: url(./113184-One-Piece-anime-red-background-silhouette-simple-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.profile{
+    height: 70vh;
+    width: 300px;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    padding: 35px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    box-shadow: 2px 3px 50px rgb(233, 233, 61);
+    margin: 35px;
+    
+  }
